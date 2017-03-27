@@ -11,7 +11,7 @@ Installation
 Go to https://www.jetbrains.com/idea/ to install IntelliJ IDEA. 
 
 Tests
-To run the program, copy and paste all the source code into 6 different files:
+To run the program, clone all the files into your local repository (or copy and paste the code into 6 different files):
 
 1. frontpage.html
 2. frontpagecss.css
