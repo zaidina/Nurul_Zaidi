@@ -1,0 +1,144 @@
+/*front page ad*/
+element.style {
+}
+
+.Section--hero {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    min-height: 500px;
+    background: linear-gradient(180deg,#66a5ff,#0069ff);
+    -ms-flex-align: center;
+}
+
+.Section {
+    padding: 96px 0;
+}
+
+.u-contrast {
+    color: hsla(0,0%,100%,.8);
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+html {
+    box-sizing: border-box;
+    margin-top: 10px;
+    background: #fff;
+    color: #333;
+    font: 400 16px/1.7 proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+::selection {
+    background: #0069ff;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/*login form*/
+.TopNav-link {
+    color: rgba(51,51,51,.75);
+}
+
+@CHARSET "ISO-8859-1";
+
+button {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    height: 80px;
+    width: 120px;
+
+}
+
+#menu-logo {
+    width: 10%;
+    float: left;
+}
+
+#menu-logo img{
+    width: 100%;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*end login form*/

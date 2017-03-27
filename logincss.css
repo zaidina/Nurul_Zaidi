@@ -1,0 +1,115 @@
+/*login logo*/
+element.style {
+}
+.login .logo {
+    display: block;
+    height: 75px;
+    padding-top: 40px;
+    margin: 0 auto 30px;
+}
+
+.login * {
+    box-sizing: border-box;
+    font-family: "proxima-nova", helvetica;
+}
+
+.login {
+    background: #0069ff;
+    padding: 0;
+    margin: 0;
+}
+/*end login logo*/
+
+/*background for login page*/
+element.style {
+}
+
+.login {
+    background: #0069ff;
+    font-family: "proxima-nova";
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "proxima-nova", "proxima nova", "helvetica neue", "helvetica", "arial", sans-serif;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+/*end of background for login page*/
+
+/*log in form*/
+element.style {
+}
+.login .vertical-form.sign-in, .login .vertical-form.register {
+    padding-bottom: 20px;
+}
+
+.login .vertical-form {
+    margin: 0 auto;
+    width: 470px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+}
+.login * {
+    box-sizing: border-box;
+    font-family: "proxima-nova", helvetica;
+}
+user agent stylesheet
+form {
+    display: block;
+}
+
+.login {
+    background: #0069ff;
+    padding: 0;
+    margin: 0;
+}
+/*end of log in form*/
+
+/*footer*/
+element.style {
+}
+
+.login .footer p {
+    margin-bottom: 40px;
+}
+
+.login * {
+    box-sizing: border-box;
+    font-family: "proxima-nova", helvetica;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+.login .footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+}
+
+.login * {
+    box-sizing: border-box;
+}
+
+.windows .setting_item, .setting_item, .windows .errors, .errors, .windows .descr, .descr, .windows .thin_text, .thin_text, .windows .footer, .footer {
+    font-weight: 400;
+}
+
+.login {
+    background: #0069ff;
+    padding: 0;
+    margin: 0;
+}
+/*end of footer*/

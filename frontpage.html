@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Ocean Web</title>
+    <link rel="stylesheet" type="text/css" href="frontpagecss.css">
+</head>
+<body>
+
+<?php echo "" ?>
+
+<!--navigation menu-->
+<ul class="menu">
+    <div id="menu-logo">
+        <img src="https://dwa5x7aod66zk.cloudfront.net/assets/pack/logo-digitalocean-3d328c1d6619d314d47aab1259c1235b1339c343e12df62a688076bf6ceac866.jpg">
+    </div>
+    <!--Dropdown button for Products tab-->
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Products</a>
+        <div class="dropdown-content">
+            <a href="#">Overview</a>
+            <a href="#">Compute</a>
+            <a href="#">Storage</a>
+            <a href="#">Networking</a>
+            <a href="#">Load Balancer</a>
+            <a href="#">Monitoring</a>
+            <a href="#">Apps</a>
+        </div>
+    </li>
+
+    <!--Dropdown button for Solutions tab-->
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Solutions</a>
+        <div class="dropdown-content">
+            <a href="#">Overview</a>
+            <a href="#">Big Data</a>
+            <a href="#">Web Apps</a>
+            <a href="#">Websites</a>
+            <a href="#">Hosted Services</a>
+            <a href="#">Developer Tools</a>
+        </div>
+    </li>
+    <li><a href="#contact">Pricing</a></li>
+    <li><a href="#contact">Community</a></li>
+
+    <li><a href="#contact">Api</a></li>
+    <li><a href="#contact">Help</a></li>
+    <li><a href="http://localhost:63342/digitalocean/login.html?_ijt=8qd6d0p10isc4cud4air3r55pg" class="TopNav-link">Log In</a></li>
+    <li><a href="#about">Sign Up</a></li>
+</ul>
+<!--end of navigation menu-->
+
+<!--front page ad-->
+<section class="Section Section--hero u-contrast">
+    <div class="Container">
+        <div class="Row u-flexMiddle">
+            <div class="Column-6@medium">
+                <h1 class="u-mb--large">Cloud computing,<br class="u-hiddenDown@small"> designed for developers.</h1>
+                <div class="Row">
+                    <div class="Column-10@large">
+                        <form name="SignUp" accept-charset="UTF-8" action="https://cloud.digitalocean.com/registrations" method="post">
+                            <input id="user_signup_form_name" name="user[signup_form_name]" type="hidden" value="Homepage">
+                            <div class="Form-spacing">
+                                <div id="email-suggestion" class="u-textSmall u-mb--small u-hidden"></div>
+                                <div class="FloatLabel">
+                                    <input id="user_email" name="user[email]" type="email" placeholder="Email Address" data-mailcheck="#email-suggestion">
+                                    <label for="user_email">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="Form-spacing">
+                                <div class="FloatLabel">
+                                    <input id="user_password" name="user[password]" type="password" placeholder="Password" size="30">
+                                    <label for="user_password">Password</label>
+                                </div>
+                            </div>
+                            <div class="Form-spacing">
+                                <input class="Button Button--primary Button--fullWidth" name="commit" type="submit" value="Create an Account">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <p class="u-textSmall">By signing up, you agree to the <a href="/legal/terms/" class="u-link u-textUnderline">Terms of Service</a>.</p>
+            </div>
+            <div class="Column-6@medium">
+                <div class="Browser-chrome">
+                    <div class="Browser-header">
+                        <div></div><div></div><div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of ad-->
+
+</body>
+</html>
